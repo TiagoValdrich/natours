@@ -1,6 +1,5 @@
 .row {
     max-width: $grid-width;
-    background-color: #eee;
     margin: 0 auto; // Centralize
 
     &:not(:last-child) { // Select everything except the last-child
@@ -10,7 +9,6 @@
     @include clearfix;
 
     [class^="col-"] { // Select all the elements where the class attribute starts with 'col-'
-        background-color: orangered;
         float: left;
 
         &:not(:last-child) { // Select everything except the last-child
