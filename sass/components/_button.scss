@@ -48,6 +48,15 @@
         }
     }
 
+    &--green {
+        background-color: $color-primary;
+        color: $color-white;
+
+        &::after {
+            background-color: $color-primary;
+        }
+    }
+
     &--animated {
         animation: moveInBottom .5s ease-out .75;
         /* Applies the styles of 0% stage, before the animation starts */
